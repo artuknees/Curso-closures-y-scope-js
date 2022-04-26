@@ -1,0 +1,19 @@
+{
+  "name": "curso-closures-y-scope",
+  "version": "1.0.0",
+  "description": "Archivos dedicados al curso de closures y scope en JavaScript de Platzi enlazado en git en trabajo y casa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artuknees/Curso-closures-y-scope-js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artuknees/Curso-closures-y-scope-js/issues"
+  },
+  "homepage": "https://github.com/artuknees/Curso-closures-y-scope-js#readme"
+}
