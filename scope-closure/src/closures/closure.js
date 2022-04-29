@@ -20,6 +20,10 @@ const moneyBox = (coins) => {
 }
 
 let myMoneyBox = moneyBox(); // genero su ambito lexico
+// con esto hago que la función countCoins pueda acceder a las variables de moneyBox.
+// la primera vez, saveCoins = 0, asique la uso desde moneyBox.
+// la segunda, como ya tiene un valor, y tengo generado el ámbito léxico, ya no necesito recurrir
+// a la definición de saveCoins de vuelta.
 myMoneyBox(4); // le voy asignando valores. da 4
 myMoneyBox(6); // resultado 10
 myMoneyBox(10); // resultado 20
